@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+	
+    <link rel="canonical" href="https://www.habibibears.com/cavapoo-cavachon-puppies-for-sale/">
+    <title>Find Your Cavapoochon Puppy: A Simple Guide</title>
+    <meta name="description" content="Looking for Cavapoochon puppies for sale? Our guide helps you find a healthy, happy furry friend for your family. Start your journey here!">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            overflow-x: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #6a89cc 0%, #4a69bd 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        
+        .logo {
+            height: 60px;
+            transition: transform 0.3s ease;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav li {
+            margin-left: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #fad390;
+        }
+        
+        .hero {
+            height: 70vh;
+            background: linear-gradient(rgba(106, 137, 204, 0.7), rgba(74, 105, 189, 0.7)), url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin-top: 80px;
+            position: relative;
+            background-attachment: fixed;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            padding: 0 2rem;
+            animation: fadeIn 1.5s ease-out;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #fad390;
+            color: #333;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .btn:hover {
+            background: #f8c471;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        section {
+            margin-bottom: 4rem;
+            background: white;
+            border-radius: 10px;
+            padding: 3rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        section:hover {
+            transform: translateY(-5px);
+        }
+        
+        h2 {
+            color: #4a69bd;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #fad390;
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .highlight {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-left: 4px solid #4a69bd;
+            margin: 1.5rem 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .puppy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .puppy-card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .puppy-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .puppy-img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .puppy-info {
+            padding: 1.5rem;
+        }
+        
+        .parallax {
+            height: 400px;
+            background: url('https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .parallax-content {
+            max-width: 800px;
+            padding: 0 2rem;
+        }
+        
+        .parallax h2 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .parallax h2:after {
+            background: #fad390;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .footer-logo {
+            height: 60px;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+        
+        .footer-links li {
+            margin: 0 1rem;
+        }
+        
+        .footer-links a {
+            color: #fad390;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        .copyright {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #bdc3c7;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                padding: 1rem;
+            }
+            
+            nav ul {
+                margin-top: 1rem;
+            }
+            
+            nav li {
+                margin: 0 0.5rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .puppy-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            section {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="https://www.habibibears.com/cavapoo-cavachon-puppies-for-sale/">
+                <img src="https://www.habibibears.com/wp-content/uploads/2025/01/habibi-bears-primary-logo-original.png" alt="Habibi Bears Logo" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#breeders">Find Breeders</a></li>
+                    <li><a href="#care">Puppy Care</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Cavapoochon Puppies for Sale: Your Guide to Finding a Perfect Family Friend</h1>
+            <p>Discover the joy of bringing home a loving Cavapoochon companion</p>
+            <a href="#breeders" class="btn">Find Your Puppy</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <h2>What is a Cavapoochon?</h2>
+            <p>Welcome to your search for a new puppy! If you are looking for <a href="https://www.habibibears.com/cavapoo-cavachon-puppies-for-sale/" style="color: #4a69bd; font-weight: 600;">Cavachon Puppies for Sale</a>, you have found a wonderful choice. This guide is here to help you. We will explain everything in simple words. You will learn what a Cavapoochon is, how to find a good breeder, and how to bring your puppy home. Our goal is to make this journey easy and happy for you.</p>
+            
+            <p>First, let's talk about what this funny name means. A Cavapoochon is a mix of three small, friendly dog breeds: the Cavalier King Charles Spaniel, the Poodle, and the Bichon Frise.</p>
+            
+            <div class="highlight">
+                <p>People love to mix these breeds to create the perfect family dog. This puppy gets the best qualities from its parents. They are known for being very friendly, smart, and having soft, curly hair that is good for people with allergies. They are small, which makes them great for apartments or houses.</p>
+            </div>
+        </section>
+
+        <section id="why-choose">
+            <h2>Why Choose a Cavapoochon Puppy?</h2>
+            <p>If you want a happy and loving friend, a Cavapoochon is a great pick. Here is why so many families love them:</p>
+            
+            <div class="puppy-grid">
+                <div class="puppy-card">
+                    <img src="https://images.unsplash.com/photo-1559190394-df5a28aab5c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Friendly Cavapoochon puppy" class="puppy-img">
+                    <div class="puppy-info">
+                        <h3>Very Friendly</h3>
+                        <p>These puppies love to be with people. They enjoy cuddles and playtime. They are good with children and other pets.</p>
+                    </div>
+                </div>
+                
+                <div class="puppy-card">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Smart Cavapoochon puppy" class="puppy-img">
+                    <div class="puppy-info">
+                        <h3>Smart and Easy to Train</h3>
+                        <p>With Poodle and Bichon in their family, they are clever. This makes them quick to learn new things. Training them is often easy and fun.</p>
+                    </div>
+                </div>
+                
+                <div class="puppy-card">
+                    <img src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cavapoochon with soft coat" class="puppy-img">
+                    <div class="puppy-info">
+                        <h3>Low-Shedding Coat</h3>
+                        <p>Their hair is more like a Poodle's. It does not fall out much. This is better for people who sneeze around dogs. But remember, no dog is 100% hypoallergenic.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="breeders">
+            <h2>Your Guide to Finding Cavapoochon Puppies for Sale</h2>
+            <p>Finding a healthy and happy puppy is the most important step. You must be careful and choose a good person to buy from.</p>
+            
+            <h3>Find a Responsible Breeder</h3>
+            <p>A good breeder cares deeply about their dogs. They are not a puppy mill, which is a bad place that breeds too many dogs in poor conditions.</p>
+            
+            <div class="highlight">
+                <p>Here is how to find a good breeder:</p>
+                <ul>
+                    <li><strong>Ask Questions:</strong> A good breeder will ask you many questions, too. They want to make sure their puppies go to a good home.</li>
+                    <li><strong>Let You Visit:</strong> They should let you come to their home. You can see where the puppies and their mother dog live. It should be clean and safe.</li>
+                    <li><strong>Show You the Mother:</strong> You should be able to see the puppy's mother. This helps you see how the puppy might look and act when it grows up.</li>
+                    <li><strong>Provide Health Records:</strong> They will show you papers from a doctor for animals (a veterinarian). These papers prove the puppy is healthy and has gotten its first shots.</li>
+                </ul>
+            </div>
+            
+            <p>When you talk to a breeder, you should ask about health records, how they socialize the puppies, what food they eat, and if they offer a health guarantee.</p>
+        </section>
+    </div>
+
+    <section class="parallax">
+        <div class="parallax-content">
+            <h2>Ready to Welcome Your New Friend?</h2>
+            <p>Bringing home a Cavapoochon puppy is the start of a beautiful friendship that will last for years.</p>
+            <a href="https://cavapoochon-puppies-for-sale.netlify.app/" class="btn">Cavapoochon Puppies for Sale</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="care">
+            <h2>Getting Ready for Your New Puppy</h2>
+            <p>Before you bring your puppy home, you need to get your house ready. It is an exciting time!</p>
+            
+            <h3>Puppy-Proofing Your Home</h3>
+            <p>Puppies are curious. They will chew on things. You need to keep them safe.</p>
+            <ul>
+                <li>Pick up small objects from the floor.</li>
+                <li>Hide electrical cords.</li>
+                <li>Make sure no toxic plants are within reach.</li>
+            </ul>
+            
+            <h3>Shopping for Your Puppy</h3>
+            <p>You will need some basic supplies:</p>
+            <ul>
+                <li>A comfortable dog bed</li>
+                <li>Food and water bowls</li>
+                <li>High-quality puppy food</li>
+                <li>A few safe toys for chewing and playing</li>
+                <li>A soft brush for their coat</li>
+            </ul>
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion: Start Your Journey Today</h2>
+            <p>Your search for Cavapoochon puppies for sale is the start of a wonderful adventure. This special mixed breed dog can bring so much joy and love to your life. By taking your time to find a good breeder and learning how to care for your new friend, you are making sure you have a happy and healthy companion for many years.</p>
+            
+            <div class="highlight">
+                <p>We wish you the best of luck in finding your perfect puppy. Remember to be patient, ask the right questions, and prepare your home for your new furry family member.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <img src="https://www.habibibears.com/wp-content/uploads/2025/01/habibi-bears-primary-logo-original.png" alt="Habibi Bears Logo" class="footer-logo">
+            <p>Your trusted source for healthy, happy Cavapoochon puppies</p>
+            <ul class="footer-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#breeders">Our Puppies</a></li>
+                <li><a href="#care">Care Guide</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p class="copyright">&copy; 2025 Habibi Bears. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple scroll animation for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add fade-in animation to sections as they scroll into view
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeIn 1s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
